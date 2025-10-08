@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyEvent Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>BookMyEvent</h1>
+        <nav>
+            <a href="#">Movies</a>
+            <a href="#">Theaters</a>
+            <a href="#">Events</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="movie-list">
+            <h2>Now Showing</h2>
+            </section>
+
+        <section class="seating-section" style="display: none;">
+            <div class="screen">Screen</div>
+            <div class="seats-container">
+                </div>
+            <div class="booking-summary">
+                <p>Selected Seats: <span id="selected-seats-count">0</span></p>
+                <p>Total Price: ₹<span id="total-price">0</span></p>
+                <button id="book-button">Book Now</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
